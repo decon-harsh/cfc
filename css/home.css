@@ -403,24 +403,25 @@ img.vector-image
         margin: auto;
         display: block;
     }
-    #arrowdown
+
+    .playstorebtntext
     {
-        display: none;
+        margin-top: 60px;
     }
 }
 
 #college-list
 {
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 2.78%;
 }
 
 
 #college-list .row0 span
 {
-    font-family: 'Fira Sans';
+  font-family: 'Mate SC',serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 50px;
     line-height: 60px;
     padding-bottom: 10vh;
@@ -448,6 +449,7 @@ img.vector-image
 {
     max-width: 400px;
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 
 .card:hover
@@ -518,28 +520,38 @@ div#carousel-top-cont{
 }
 
 div.caraouselContainer{
-    width: 50%;
-    border: solid 2px #F9CF5A;
+    width: 60%;
+    /* border: solid 2px #F9CF5A; */
     padding:2px;
 }
 div.text-container.container{
-    margin-top: 80px;  
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 45%;
 } 
 
 div.text-container.container h2{
     color: #F9CF5A;
+    margin-top: auto;
+    margin-bottom: auto;
     padding-left: 15%;
     padding-right: 15%;
-    text-align: left;
-    font-size: 30px;
+    text-align: center;
+    font-family: 'Mate SC',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
 }
 div.text-container.container p{
-    text-align: left;
+    text-align: center;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 20px;
     font-size: 24px !important;
+    font-weight: 400;
+    font-family: 'Nunito Sans';
     width: 100%;
 }
 
