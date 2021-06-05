@@ -11,13 +11,14 @@
 body
 {
   box-sizing: border-box;
-  background-color: #ffffff; 
+  background-color: #ffffff !important; 
   scroll-behavior: smooth;
 }
 
 
 .navbar-container
 {
+    background-color: #ffffff;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 500;
@@ -25,6 +26,11 @@ body
     line-height: 22px; 
     padding:13px 200px 0px 224px;
     min-height: 83px;
+
+}
+.navbar-container.c-shadow
+{
+    box-shadow: 2px 2px 2px #cccccc;
 }
 
 .navbar-nav
@@ -66,11 +72,16 @@ body
     }
 }
 
+div.hrdiv
+{
+    display: none;
+}
 
 @media(max-width: 572px)
 {
     div.hrdiv
     {
+        display: block;
         width: 100% !important;
         height: 4px !important;
     }
